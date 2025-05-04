@@ -1,0 +1,35 @@
+nav ul{
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+    width:100%;
+    overflow:hidden;
+    background:url('../images/northern_mountains.jpg');
+}
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    display:block;
+    padding:16px 32px;
+    text-align:center;
+    text-transform:capitalize;
+}
+nav ul li a:hover{
+    background-color:black;
+    color:aliceblue;
+    text-shadow:1px 1px 10px aliceblue;
+}
+nav ul li{
+    float:left;
+    height:50px;
+}
+nav ul li:not(#logo){
+    position:relative;
+    left:70%;
+}
+nav{
+    position:sticky;
+    top:0%;
+    z-index:3;
+}
