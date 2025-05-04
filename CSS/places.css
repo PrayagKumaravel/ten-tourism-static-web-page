@@ -52,3 +52,9 @@ section:nth-child(n+2) p{
     clip-path:none;
     border-radius:50%;
 }
+footer h1{
+    background-color:rgb(228, 226, 226);
+    margin:0px;
+    height:110px;
+    padding-top:70px;
+}
