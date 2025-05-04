@@ -47,7 +47,7 @@ section img{
 section:nth-child(n+2) p{
     display:none;
 }
-section:nth-child(n+2) div div:hover p, section:nth-child(n+2) div:hover img:hover{
+:is(section:nth-child(n+2) div:hover img:hover,section:nth-child(n+2) div:hover div p){
     display:block;
     clip-path:none;
     border-radius:50%;
